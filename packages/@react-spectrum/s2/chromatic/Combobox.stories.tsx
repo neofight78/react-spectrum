@@ -13,7 +13,7 @@
 import {ComboBox} from '../src';
 import {ContextualHelpExample, CustomWidth, Dynamic, Example, Sections, WithIcons} from '../stories/ComboBox.stories';
 import type {Meta, StoryObj} from '@storybook/react';
-import {userEvent, within} from '@storybook/testing-library';
+import {userEvent, within} from '@storybook/test-library';
 
 const meta: Meta<typeof ComboBox<any>> = {
   component: ComboBox,

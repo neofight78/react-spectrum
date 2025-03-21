@@ -13,7 +13,7 @@
 import {ContextualHelpExample, CustomWidth, Dynamic, Example, Sections, WithIcons} from '../stories/Picker.stories';
 import type {Meta, StoryObj} from '@storybook/react';
 import {Picker} from '../src';
-import {userEvent, within} from '@storybook/testing-library';
+import {userEvent, within} from '@storybook/test-library';
 
 const meta: Meta<typeof Picker<any>> = {
   component: Picker,
